@@ -1,0 +1,40 @@
+name: flutter1
+description: A starting point for Dart libraries or applications.
+version: 1.0.0+1
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  google_fonts: ^6.2.1
+  flutter:
+    sdk: flutter
+  flutter_cors: ^1.5.0
+  flutter_widget_from_html: ^0.16.0
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0               # For API requests
+  file_picker: ^5.3.3        # For selecting files
+  fl_chart: ^0.63.0          # For charts and graphs
+  path_provider: ^2.1.1   # For file operations
+  pie_chart: ^5.3.2
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
