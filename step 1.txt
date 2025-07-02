@@ -1,0 +1,12 @@
+step 1:
+open file in cmd: cd sentiment_analysis_api
+step 2: cmd
+py -3.10 -m venv venv
+venv\Scripts\activate
+step 3:
+python run_api.py
+
+Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.25:5000
+
+
